@@ -7,8 +7,14 @@ npm install --save-dev jest
 # 테스트 실행
 npm test
 
-# 각 케이스 상세하게 표시
-npm test -- --verbose
+# 테스트 결과 상세 보기(테스트 실행 후 입력)
+jest --verbose
+
+# 코드의 몇 퍼센트가 테스트 되었는지 보기(테스트 실행 후 입력)
+jest --coverage
+jest --verbose --coverage(함께 사용 가능)
+
+# 
 ```
 <br/>
 
