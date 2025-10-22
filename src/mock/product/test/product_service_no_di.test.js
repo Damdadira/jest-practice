@@ -1,4 +1,4 @@
-// mock을 남용하는 사례
+// mock을 남발한 코드
 const ProductService = require("../product_service_no_di.js");
 const ProductClient = require("../product_client.js");
 
