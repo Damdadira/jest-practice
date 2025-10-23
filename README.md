@@ -8,7 +8,7 @@
 
 ### 좋은 테스트의 구조
 1. Arrange, Given (테스트 준비)
-2. Act, When (테스트 실행)
+2. Act, When (테스트 실행) -> 의도적으로 실패해서 버그 찾기
 3. Assert, Then (결과값 확인)
 <br/>
    
