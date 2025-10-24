@@ -1,18 +1,26 @@
-### 특징
+# Jest
+
+### 📚 학습 내용
+#### 특징
 - 한번 작성된 테스트 코드는 영원히 유지보수 해야 한다
 - 내부 구현 사항을 테스트 하면 안된다
 - 재사용성을 높이자
 - 배포용 코드와 철저하게 분리하자
 - 테스트코드를 통해 문서화 하자
-<br/>
 
-### 좋은 테스트의 구조
+#### 좋은 테스트의 구조
 1. Arrange, Given (테스트 준비)
 2. Act, When (테스트 실행) -> 의도적으로 실패해서 버그 찾기
 3. Assert, Then (결과값 확인)
 <br/>
+
+### 🛠 기술 스택
+<div>
+   <img src="https://img.shields.io/badge/-Jest-%23C21325?style=flat-square&logo=jest&logoColor=white" />
+</div>
+<br/>
    
-### 설치 및 실행
+### 🎯 실행 방법
 ```bash
 # 패키지 설치
 npm install --save-dev jest
@@ -29,7 +37,7 @@ jest --verbose --coverage(함께 사용 가능)
 ```
 <br/>
 
-### pakage.json
+#### pakage.json
 ```bash
 # 개별 사용
 {
